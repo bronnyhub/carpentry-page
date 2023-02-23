@@ -46,6 +46,8 @@ section {
     padding: 2rem 7%;
 }
 
+/* This is style for HEADER */
+
 .header {
     background: var(--bg);
     display: flex;
@@ -89,6 +91,9 @@ section {
     margin-left: 2rem;
 }
 
+
+
+/* This is style for MAIN PAGE*/
 
 .home {
     min-height: 100vh;  
