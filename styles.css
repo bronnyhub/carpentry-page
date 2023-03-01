@@ -40,6 +40,7 @@ html::-webkit-scrolbar-thumb{
 
 body{
     background: var(--bg);
+    color:white;
 }
 
 section {
@@ -93,7 +94,7 @@ section {
 
 
 
-/* This is style for MAIN PAGE*/
+/* MAIN PAGE*/
 
 .home {
     min-height: 100vh;  
@@ -104,16 +105,16 @@ section {
     background-position: center;
   }
 
-  .home .content {
+  .home .content1 {
     max-width: 60rem;    
   }
 
-  .home .content h3{
+  .home .content1 h3{
     font-size: 5rem;
     text-transform: uppercase;
     color:#fff;
   }
-  .home .content p{
+  .home .content1 p{
     font-size: 1rem;
     font-weight: lighter;
     line-height: 1.8;
@@ -121,12 +122,39 @@ section {
     color:#eee;
   }
 
+  .content1 {
+    margin-top: 200px;
+}
+
+
+/* O MNIE CONTENT */
 
 
 
 
+/* USŁUGI CONTENT*/
+
+.content-uslugi h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:60px;
+    margin-bottom:80px;
+}
 
 
+.content-uslugi ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.icon-uslugi {
+    height:100px;
+    width:100px;
+}
 
 
 
