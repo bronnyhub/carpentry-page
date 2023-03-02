@@ -129,10 +129,22 @@ section {
 
 /* O MNIE CONTENT */
 
+.content-omnie {
+    padding:100px;
+}
 
 
 
 /* USŁUGI CONTENT*/
+
+.uslugi {
+    background-color:#C59D8B;
+    color:#33201a;
+}
+
+.content-uslugi {
+    padding:70px;
+}
 
 .content-uslugi h3 {
     display: flex;
@@ -156,6 +168,11 @@ section {
     width:100px;
 }
 
+
+.kontakt {
+    border-top: var(--border);
+
+}
 
 
 
